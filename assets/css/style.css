@@ -277,6 +277,15 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+.Map-area iframe {
+    width: 100%; /* Set width to 100% to fit the screen */
+    height: 450px; /* You can adjust the height as needed */
+    border: 0; /* Remove border */
+}
+.footer-logo-img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
 .boxed-btn:hover {
     background: #000000;
     color: #fff !important;
